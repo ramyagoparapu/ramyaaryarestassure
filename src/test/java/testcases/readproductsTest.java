@@ -23,7 +23,7 @@ public class readproductsTest {
 		Assert.assertEquals(actualresponsecode, 200);
 
 		String actualresponsebody = response.getBody().asString();
-		//System.out.println("actualresponsebody:" + actualresponsebody);
+		System.out.println("actualresponsebody:" + actualresponsebody);
 
 		JsonPath jPath = new JsonPath(actualresponsebody);
 		String firstproductid = jPath.get("records[0].id");

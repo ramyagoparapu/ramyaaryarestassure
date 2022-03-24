@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4109" started-at="2022-03-13T14:36:35 EDT" finished-at="2022-03-13T14:36:39 EDT">
+  <suite name="Default suite" duration-ms="2576" started-at="2022-03-23T19:57:56 EDT" finished-at="2022-03-23T19:57:59 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4109" started-at="2022-03-13T14:36:35 EDT" finished-at="2022-03-13T14:36:39 EDT">
-      <class name="testcases.readproducts">
-        <test-method status="PASS" signature="readallproducts()[pri:0, instance:testcases.readproducts@2f943d71]" name="readallproducts" duration-ms="4056" started-at="2022-03-13T14:36:35 EDT" finished-at="2022-03-13T14:36:39 EDT">
+    <test name="Default test" duration-ms="2576" started-at="2022-03-23T19:57:56 EDT" finished-at="2022-03-23T19:57:59 EDT">
+      <class name="testcases.readoneproduct">
+        <test-method status="PASS" signature="readoneproducts()[pri:0, instance:testcases.readoneproduct@2a742aa2]" name="readoneproducts" duration-ms="2552" started-at="2022-03-23T19:57:56 EDT" finished-at="2022-03-23T19:57:59 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readallproducts -->
-      </class> <!-- testcases.readproducts -->
+        </test-method> <!-- readoneproducts -->
+      </class> <!-- testcases.readoneproduct -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
